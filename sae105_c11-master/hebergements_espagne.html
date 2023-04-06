@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Hebergement</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="accueil.html" title="Retour Accueil">
+                <img src="image/logo.png" title="logo" alt="logo">
+                <img class="petit_logo" src="image/logo_tel.png" title="petit logo" alt="petit logo">
+            </a>
+            <nav>
+                <a href="accueil.html"><h1>Accueil</h1></a>
+                <a href="Sejour.html"><h1>Catalogue de <br>séjours</h1></a>
+                <a href="hebergements.html" id="Hebergement"><h1>Nos <br>hébergements</h1></a>
+                <a href="contact.html"><h1>Qui somme nous</h1></a>
+                
+                <ul>
+                    <li>
+                        <div>
+                            <img class="fleche" src="image/Expand_Arrow.png" alt="Fleche menu">
+                            <img src="image/drapeau_france.png" title="Drapeau Français" alt="Drapeau Français">
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="hebergements_espagne.html"><img src="image/drapeau_france.png" title="Drapeau Français" alt="Drapeau Français"></a>
+                            </li>
+                            <li>
+                                <a href="hebergements_espagne_en.html"><img src="image/drapeau_RU.jpg" title="Drapeau du Royaume-Uni" alt="Drapeau du Royaume-Uni"></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="toggle">
+            <i class="fas fa-bars ouvrir"></i> 
+            <i class="fas fa-times fermer"></i>
+        </div>
+        <ul class="menu">
+            <li><a href="accueil.html"><p>Accueil</p></a></li>
+            <li><a href="Sejour.html"><p>Catalogue de séjours</p></a></li>
+            <li><a href="hebergements.html"><p>Nos hébergements</p></a></li>
+            <li><a href="contact.html"><p>Qui sommes nous</p></a></li>
+            <li>
+                <div>
+                    <img src="image/Expand_Arrow.png" alt="Fleche menu">
+                    <img src="image/drapeau_france.png" title="Drapeau Français" alt="Drapeau Français">
+                </div>
+                <ul>
+                    <li>
+                        <a href="hebergements_espagne.html"><img src="image/drapeau_france.png" title="Drapeau Français" alt="Drapeau Français"></a>
+                    </li>
+                    <li>
+                        <a href="hebergements_espagne_en.html"><img src="image/drapeau_RU.jpg" title="Drapeau du Royaume-Uni" alt="Drapeau du Royaume-Uni"></a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <img class="petit_logo2" src="image/logo_tel.png" title="petit logo" alt="petit logo">
+        <hr>
+        <section>
+
+            <h1>
+                Divers Hébergements
+            </h1>
+
+            <p>
+                En espérant que vous trouviez ce qui vous sied !
+            </p>
+        </section>
+    </header>
+    <script src="script.js"></script>
+    <main class="heberge">
+        <div class="carousel">
+            <h2>Nos hébergements les mieux notés :</h2>
+            <hr>
+            <div>
+                <button class="next" onclick="nextCar(0)"><span class="material-symbols-outlined">arrow_forward_ios</span></button>
+                <button class="prev" onclick="prevCar(0)"><span class="material-symbols-outlined">arrow_back_ios</span></button>
+            </div>
+            <div class="slider">
+                <div class="slides">
+                    <a href="hebergement_detaille.html">
+                        <div class="slide">
+                            <img src="image/Rectangle_82.png" alt="paysage">
+                            <h3>VILLAGE DE LA PLAGE D'ARGENT</h3>
+                            <h3>120 euros</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                        </div>
+                    </a>
+                    <div class="slide">
+                        <img src="image/Rectangle_81.png" alt="paysage">
+                        <h3>Titre</h3>
+                        <h3>Prix</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="image/Rectangle_81.png" alt="paysage">
+                        <h3>Titre</h3>
+                        <h3>Prix</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="image/Rectangle_81.png" alt="paysage">
+                        <h3>Titre</h3>
+                        <h3>Prix</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="image/Rectangle_81.png" alt="paysage">
+                        <h3>Titre</h3>
+                        <h3>Prix</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="image/Rectangle_81.png" alt="paysage">
+                        <h3>Titre</h3>
+                        <h3>Prix</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <section>
+            <nav>
+                <ul>
+                    <div id="trier">
+                        <h2 id="Français">Choisissez un logement selon le pays</h2>
+                        <figure>
+                            <img class="fleche_pays" src="image/Expand_Arrow.png" alt="Fleche menu">
+                        </figure>
+                        <img class="drapeau_fr" src="image/drapeau_Espagne.png" alt="Drapeau Espagne">
+                    </div>
+                    <div id = "tous">
+                        <h2>Choisissez parmis nos hébergements : </h2>
+                    </div>
+                    <ul>
+                        <nav>
+                                <li>
+                                    <a href="hebergements.html#trier"><img src="image/drapeau_france.png" title="Drapeau de la France" alt="Drapeau de la France"></a>
+                                </li>
+                                <li>
+                                    <a href="hebergements_italie.html#trier"><img src="image/drapeau_Italie.png" title="Drapeau de l'Italie" alt="Drapeau de l'Italie"></a>
+                                </li>
+                                <li>
+                                    <a href="hebergement_grece.html#trier"><img src="image/drapeau_Grèce.png" title="Drapeau de la Grèce" alt="Drapeau de la Grèce"></a>
+                                </li>
+                        </nav>
+                    </ul>
+                </ul>
+            </nav>
+
+            <hr>
+            
+
+            <section>
+                <div>
+                    <img src="image/Rectangle_82.png" alt="calanque Corse">
+                    <h3>Titre</h3>
+                    <br>
+                    <p>Lieu</p>
+                    <br>
+                    <p>Description</p>
+                </div>
+            </section>
+        </section>
+        <div class="carousel">
+            <div class="bouton2">
+                <button class="next" onclick="nextCar(1)"><span class="material-symbols-outlined">arrow_forward_ios</span></button>
+                <button class="prev" onclick="prevCar(1)"><span class="material-symbols-outlined">arrow_back_ios</span></button>
+            </div>
+            <div class="slider2">
+                <div class="slides">
+                    <a href="hebergement_detaille.html">
+                        <div class="slide">
+                            <img src="image/Rectangle_82.png" alt="paysage">
+                            <h3>Titre</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                        </div>
+                    </a>
+                    <div class="slide">
+                        <img src="image/Rectangle_81.png" alt="paysage">
+                        <h3>Titre</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="image/Rectangle_81.png" alt="paysage">
+                        <h3>Titre</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="image/Rectangle_81.png" alt="paysage">
+                        <h3>Titre</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="image/Rectangle_81.png" alt="paysage">
+                        <h3>Titre</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="image/Rectangle_81.png" alt="paysage">
+                        <h3>Titre</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dolore cupiditate placeat odio ab, inventore fugiat, alias unde itaque ex exercitationem esse beatae maxime quisquam eaque? Aspernatur, earum. Dolorum, dolorem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div>          
+            <ul>
+                <li><a href="accueil.html"><h3>Accueil</h3></a></li>
+                <li><a href="accueil.html#sej_der_min"><p>Nos séjours dernière minute</p></a></li>
+                <li><a href="accueil.html#sej_mieux_note"><p>Nos séjours les mieux notés</p></a></li>
+            </ul>
+            <ul>
+                <li><a href="Sejour.html"><h3>Catalogue de séjours</h3></a></li>
+                <li><a href="Sejour.html#Mieux"><p>Nos séjours les mieux notés</p></a></li>
+                <li><a href="Sejour.html#Trie"><p>Tous nos séjours</p></a></li>
+            </ul>
+            <ul>
+                <li><a href="hebergements.html"><h3>Nos hébergements</h3></a></li>
+                <li><a href="hebergements.html#mieux"><p>Nos hébergements les mieux notés</p></a></li>
+                <li><a href="hebergements.html#trier"><p>Recherche d'hébergement</p></a></li>
+            </ul>
+            <ul>
+                <li><a href="contact.html"><h3>Qui sommes nous ?</h3></a></li>
+                <li><a href="#"><p>Nos séjours dernière minute</p></a></li>
+                <li><a href="#"><p>Tous nos séjours</p></a></li>
+            </ul>
+        </div>
+        <address>
+            <hr>
+            <p>WebMaster: Dumerchat Kyrill, Penven  Ewan, Melvin Guenau, Le Bouedec Raphaël IUT Lannion - BUT Informatique 2022 - 2023 </p>
+        </address>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

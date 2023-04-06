@@ -1,0 +1,888 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #F2F1E4;
+}
+
+/*******************Header CSS*******************/
+header
+{
+    background-image: url("image/vague.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(Font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Ministry";
+    src: url(Font/Ministry/MINISTRY.otf);
+}
+
+@font-face {
+    font-family: "RightOus";
+    src: url(Font/Righteous/Righteous-Regular.ttf);
+}
+
+header {
+    height: fit-content;
+    padding-bottom: 15%;
+}
+
+header div nav h1
+{
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    padding: auto;
+    height: 100%;
+}
+
+header nav a {
+    height: 100%;
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+header hr
+{
+    background-color: #A7D9D9;
+    border-radius: 10px;
+    border: none;
+    height: 5px;
+    width: 80%;
+    padding-left: 10em;
+    margin: auto;
+}
+
+header div
+{
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+header div a img
+{
+    width: 100%;
+    height: 100%;
+}
+
+header div nav ul li div{
+    margin-right: 40px;
+}
+
+
+a, a:link, a:visited
+{
+    text-decoration: none;
+    color: #F2F1E4;
+}
+header div nav a
+{
+    border-right: 3px solid #6C6373;
+}
+
+#Hebergement h1
+{
+    text-decoration: underline;
+    text-decoration-color: #6C6373;
+    text-decoration-thickness: 3px;
+    text-underline-position: auto;
+}
+
+/*Choix langue*/
+header ul li:hover > ul
+{
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+
+header div nav ul ul {
+    right: 10px;
+}
+
+header ul li > ul a {
+    border: none;
+}
+
+
+header ul ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #73A853;
+    background: rgba(115, 168, 83, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+}
+  
+header ul li 
+{
+    display: inline-block;
+}
+  
+header ul ul li 
+{
+    display: block;
+}
+
+header ul ul li a img
+{
+    width: 123px;
+    height: 82px;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+header ul li img + img
+{
+    width: 75.18px;
+    height: 53px;
+    border-radius: 10px;
+}
+/*Fin choix langue*/
+
+header div nav a + a + a + a
+{
+    border-right: none;
+}
+
+header section > h1
+{
+    font-family: Ministry;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    text-align: right;
+    color: #6C6373;
+    margin: 80px;
+    padding-right: 0.5em;
+}
+
+header section > p
+{
+    font-family: RightOus;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #6C6373;
+    margin-right: 80px;
+}
+
+
+.toggle {
+    display: none;
+}
+
+.toggle, .menu {
+    display: none;
+}
+
+.menu li a {
+    color: #F2F1E4;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+
+/** ------------------CAROUSEL ------------------- **/
+
+.slide {
+    width: 530px;
+    height: 700px;
+    background-color: #6C6373;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+    float: left;
+}
+  
+.slide img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+}
+  
+.slides {
+    width: calc(530px * 9 + 20px * 9);
+    transition: 0.5s;
+    transform: translateX(0px);
+}
+  
+.slider {
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.carousel button {
+    background-color: #A7D9D9;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    z-index: 5;
+    border: none;
+    position: absolute;
+    top: 52%;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    margin-left: 30px;
+}
+  
+.carousel button:first-child {
+    right: 0;
+}
+  
+.carousel button + button {
+    left: 0;
+}
+  
+.carousel h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: RightOus;
+    line-height: 44.7px;
+    margin: 10px;
+}
+  
+.carousel p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Roboto;
+    line-height: 28.13px;
+    margin: 10px;
+}
+
+.carousel h2, #tous > h2 {
+    font-family: 'MINISTRY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 112px;
+    margin: 20px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    color: #6C6373;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    text-decoration-thickness: 3px;
+}
+  
+.carousel hr{
+    background-color: #A7D9D9;
+    border-radius: 10px;
+    border: none;
+    height: 5px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    width: 550px;
+}
+
+
+
+
+/**---------FIN-DU-CAROUSEL-------------**/
+
+
+/**------------MAIN---CSS----------------**/
+
+main hr
+{
+    background-color: #A7D9D9;
+    border-radius: 10px;
+    border: none;
+    height: 5px;
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+
+/**------------TRIER--PAR---PAYS-------**/
+
+
+
+
+
+main section nav > nav
+{
+    display: flex;
+}
+
+
+
+main section nav div
+{
+    display: flex;
+    align-items: center;
+}
+
+
+main section nav div img
+{
+    margin-top: 40px;
+    margin-right: 2em;
+    width: 30px;
+    height: 30px;
+}
+
+
+main section nav:hover > ul ul
+{
+    display: block;
+    position: absolute;
+}
+
+main ul li > ul a {
+    border: none;
+}
+
+
+main section nav ul ul {
+    position: absolute;
+    display: none;
+}
+
+
+main section ul ul
+{
+    list-style-type: none;
+    background: #A7D9D9;
+    border-radius: 15px;
+    margin: 0 865px;
+    z-index: 1;
+}
+
+
+
+main ul li 
+{
+    display: inline-block;
+}
+
+
+main ul ul li 
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+main ul ul li a img
+{
+    width: 123px;
+    height: 82px;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+main ul li img + img
+{
+    width: 75.18px;
+    height: 53px;
+    border-radius: 10px;
+}
+
+main section nav div h3
+{
+    text-align: center;
+    color: #685D63;
+    font-family: Ministry;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main section nav nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+  
+
+/**--------FIN----TRIER--PAR---PAYS-------**/
+
+
+
+/*Section CSS France*/
+
+main section hr{
+    background-color: #A7D9D9;
+    border-radius: 10px;
+    border: none;
+    height: 5px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+    width: 550px;
+}
+
+
+main section div:first-child
+{
+    display: flex;
+}
+
+main section div:first-child h2
+{
+    font-family: MINISTRY;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 112px;
+    margin: 20px;
+    margin-left: 0.3em;
+    color: #6C6373;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.drapeau_fr{
+    width: 130px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+
+.fleche_pays{
+    padding-top: 40px;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 30px;
+    margin-left: 4em;
+}
+
+
+
+main section section div:first-child
+{
+    display: block;
+}
+
+main section section div:first-child h3
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: RightOus;
+    line-height: 44.7px;
+    margin: 10px;
+}
+
+main section section div:first-child img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+    margin: 0;
+}
+
+
+main section section div
+{
+    width: 530px;
+    height: 700px;
+    background-color: #6C6373;
+    border-radius: 10px;
+    margin: 2em;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+}
+
+main section section div img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+}
+
+main section section + div img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+}
+
+main section section div h3
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: RightOus;
+    line-height: 44.7px;
+    margin: 10px;
+}
+
+main section section div p
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Roboto;
+    line-height: 28.13px;
+    margin: 10px;
+}
+
+main section section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#trier h2{
+    margin-left: 100px;
+}
+
+/*Fin CSS section France*/
+
+/** --------------------FOOTER ---------- **/
+
+footer ul li h3 {
+    font-family: RightOus;
+    font-size: 48px;
+}
+
+footer ul li p {
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+
+ footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    padding: 25px;
+    width: 250px;
+    margin: 3em;
+}
+
+footer ul li {
+    padding-top: 35px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+footer ul li h3,p{
+    color: #685D63;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8%;
+    justify-content: space-around;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("image/vague_footer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer address {
+    width: 85%;
+    align-self: center;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10%;
+}
+
+footer address p {
+    padding-top: 10%;
+}
+
+footer address hr {
+    background-color: #A7D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 10px;
+    margin-top: 10%;
+}
+
+
+/**-----------TELEPHONE-------------**/
+
+
+.petit_logo2{
+    display: none;
+}
+
+.slider2{
+    display: none;
+}
+
+@media screen and (max-width: 573px) {
+    header > div {
+        display: none;
+    }
+
+    .petit_logo2{
+        display: block;
+        margin: auto;
+    }
+    
+    header hr {
+        visibility: hidden;
+        width: 1%;
+    }
+
+    header > h1 {
+        text-align: center;
+    }
+
+    header > p {
+        text-align: center;
+        margin: auto;
+    }
+
+    header
+    {
+        padding-bottom: 30em;
+    }
+
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 550px;
+    }
+
+    .toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+        color: #6C6373;
+    }
+
+    .ouvrir {
+        display: block;
+    }
+
+
+    .fermer {
+        display: none;
+    }
+    
+    .open .ouvrir {
+        display: none;
+    }
+
+    .open .fermer {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 88.2%;
+        height: 100vh;
+        background: rgba(115, 168, 83, 0.8);
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        transition: transform 1s;
+    }
+
+    .menu li a {
+        font-size: 2rem;
+    }
+
+    .open .menu {
+        transform: translateX(0);
+    }
+    
+    
+    .slide {
+        width: 460px;
+    }
+    
+
+
+}
+
+.petit_logo, .bouton2{
+    display: none;
+}
+#tous{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    header div > a img {
+        display: none;
+    }
+    
+    .petit_logo{
+        display: block;
+        width: 100px;
+        height: 110px;
+        margin: 0;
+    }
+
+    header hr{
+        margin-top: 20px;
+    }
+
+    header section p, header section h1{
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    header div nav ul li div{
+        margin-right: 15px;
+    }
+
+    .carousel > h2, #trier > h2, #tous > h2{
+        font-size: 66px;
+        margin-left: 40px;
+    }
+    .carousel hr, main section hr{
+        margin-left: 25px;
+        margin-top: 0;
+        width: 300px;
+    }
+    .carousel{
+        margin-left: 10px;
+    }
+    .slide {
+        width: 300px;
+        height: 400px;
+    }
+    .slides {
+        width: calc(530px * 9 + 20px * 9);
+        transition: 0.5s;
+        transform: translateX(0px);
+    }
+    .slide img {
+        width: 100%;
+        height: 175px;
+    }
+    .carousel h3 {
+        font-size: 24px;
+    }
+      
+    .carousel p {
+        font-size: 12px;
+    }
+    main section section{
+        display: none;
+    }
+    .slider2{
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .bouton2{
+        display: block;
+    }
+
+    .bouton2 button{
+        top: 25%;
+    }
+
+
+    #trier, nav ul ul nav{
+        display: none;
+    }
+    #tous{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:900px){
+    header hr{
+        width: 60%;
+    }
+    header div nav h1{
+        font-size:20px;
+    }
+    .petit_logo{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    header section h1{
+        font-size: 100px;
+    }
+
+    header section p{
+        font-size: 28px;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    
+    footer ul li + li, footer ul li + li + li {
+        display: none;
+    }
+
+}
+
+
+/**-----------FIN---TELEPHONE-------------**/
+
+

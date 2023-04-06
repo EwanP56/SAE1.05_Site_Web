@@ -1,0 +1,3095 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F1E4;
+}
+
+@font-face {
+    font-family: "RightOus";
+    src: url("font/Righteous/Righteous-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("font/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "MINISTRY";
+    src: url("font/Ministry/MINISTRY.otf");
+}
+
+
+/** --------------- Header ---------------------**/
+
+
+.SejourH #Sejour h1
+{
+    text-decoration: underline;
+    text-decoration-color: #6C6373;
+    text-decoration-thickness: 3px;
+    text-underline-position: auto;
+}
+  
+#accueil #Accueil {
+    text-decoration: underline;
+    text-decoration-color: #6C6373;
+}
+
+.SejourH p
+{
+    text-align: center;
+    margin: auto;
+    font-family: RightOus;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #6C6373;
+    margin-right: 80px;
+}
+
+.SejourH > h1
+{
+    font-family: Ministry;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    text-align: center;
+    color: #6C6373;
+    margin: 80px;
+}
+
+.SejourH > a img 
+{
+    display: flex;
+    margin: auto;
+    margin-top: 30em;
+}
+
+.SejourH > h1 {
+    text-align: center;
+    font-size: 96px;
+    line-height: 96px;
+}
+
+header
+{
+    background-image: url("image/vague.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header {
+    height: fit-content;
+    padding-bottom: 15%;
+}
+
+header div nav h1
+{
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    height: 100%;
+}
+
+header nav a {
+    height: 100%;
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+header hr
+{
+    background-color: #A7D9D9;
+    border-radius: 10px;
+    border: none;
+    height: 5px;
+    width: 80%;
+    padding-left: 10em;
+    margin: auto;
+}
+
+header div
+{
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+header div a img
+{
+    width: 100%;
+    height: 100%;
+}
+
+header div nav ul li div{
+    margin-right: 40px;
+}
+
+
+a, a:link, a:visited
+{
+    text-decoration: none;
+    color: #F2F1E4;
+}
+header div nav a
+{
+    border-right: 3px solid #6C6373;
+}
+
+#Hebergement h1
+{
+    text-decoration: underline;
+    text-decoration-color: #6C6373;
+    text-decoration-thickness: 3px;
+    text-underline-position: auto;
+}
+
+#contact h1
+{
+    text-decoration: underline;
+    text-decoration-color: #6C6373;
+    text-decoration-thickness: 3px;
+    text-underline-position: auto;
+}
+
+#accueil div + div + ul + img + hr + div h1
+{
+    font-family: MINISTRY;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    text-align: right;
+    color: #6C6373;
+    margin: 80px;
+}
+
+#accueil div + div + ul + img + hr + div img {
+    width: 27%;
+    visibility: visible;
+}
+
+#logo_tel {
+    display: none;
+}
+
+#accueil div + div + ul + img + hr + div div {
+    display: flex;
+    flex-direction: column;
+}
+
+#accueil div + div + ul + img + hr + div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#accueil div + div + ul + img + hr + div p
+{
+    font-family: RightOus;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #6C6373;
+    margin-right: 80px;
+}
+
+
+
+
+/*Choix langue*/
+header ul li:hover > ul
+{
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+
+header div nav ul ul {
+    right: 10px;
+}
+
+header ul li > ul a {
+    border: none;
+}
+
+header ul ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #73A853;
+    background: rgba(115, 168, 83, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+}
+  
+header ul li 
+{
+    display: inline-block;
+}
+  
+header ul ul li 
+{
+    display: block;
+}
+
+header ul ul li a img
+{
+    width: 123px;
+    height: 82px;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+header ul li img + img
+{
+    width: 75.18px;
+    height: 53px;
+    border-radius: 10px;
+}
+/*Fin choix langue*/
+
+header div nav a + a + a + a
+{
+    border-right: none;
+}
+
+header section > h1
+{
+    font-family: Ministry;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    text-align: right;
+    color: #6C6373;
+    margin: 80px;
+    padding-right: 0.5em;
+}
+
+header section > p
+{
+    font-family: RightOus;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #6C6373;
+    margin-right: 80px;
+}
+
+
+.toggle {
+    display: none;
+}
+
+.toggle, .menu {
+    display: none;
+}
+
+.menu li a {
+    color: #F2F1E4;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+@media screen and (max-width:900px){
+    header hr{
+        width: 60%;
+    }
+    header div nav h1{
+        font-size:20px;
+    }
+    .petit_logo{
+        display: none;
+    }
+
+    #logo_tel {
+        display: none;
+    }
+
+    #accueil div + div + ul + img + hr + div p {
+        text-align: center;
+        margin: 0;
+        margin-top: 175px;
+    }
+
+    #accueil div + div + ul + img + hr + div div h1 {
+        text-align: center;
+        margin: 0;
+    }
+    #accueil div + div + ul + img + hr + div img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px){
+    header section h1{
+        font-size: 100px;
+    }
+
+    header section p{
+        font-size: 28px;
+    }
+    
+}
+
+.petit_logo2{
+    display: none;
+}
+
+.slider2{
+    display: none;
+}
+
+@media screen and (max-width: 573px) {
+    header > div {
+        display: none;
+    }
+
+    section.carte {
+        display: none;
+    }
+
+    .petit_logo2{
+        display: block;
+        margin: auto;
+    }
+    
+    header hr {
+        visibility: hidden;
+        width: 1%;
+    }
+
+    header > h1 {
+        text-align: center;
+    }
+
+    header > p {
+        text-align: center;
+        margin: auto;
+    }
+
+    header
+    {
+        padding-bottom: 30em;
+    }
+
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 550px;
+    }
+
+    .toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+        color: #6C6373;
+    }
+
+    .ouvrir {
+        display: block;
+    }
+
+
+    .fermer {
+        display: none;
+    }
+    
+    .open .ouvrir {
+        display: none;
+    }
+
+    .open .fermer {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 88.2%;
+        height: 100vh;
+        background: rgba(115, 168, 83, 0.8);
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        transition: transform 1s;
+    }
+
+    .menu li a {
+        font-size: 2rem;
+    }
+
+    .open .menu {
+        transform: translateX(0);
+    }
+    
+    
+    .slide {
+        width: 460px;
+    }
+    
+    #logo_tel {
+        display: block;
+        margin: auto;
+    }
+
+}
+
+.petit_logo{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    header div > a img {
+        display: none;
+    }
+    
+    .petit_logo{
+        display: block;
+        width: 100px;
+        height: 110px;
+        margin: 0;
+    }
+
+    header hr{
+        margin-top: 20px;
+    }
+
+    header section p, header section h1{
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    header div nav ul li div{
+        margin-right: 15px;
+    }
+}
+/** ------------------CAROUSEL ------------------- **/
+
+.slide {
+    width: 530px;
+    height: 700px;
+    background-color: #6C6373;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+  
+    float: left;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+  }
+  
+  .slides {
+    width: calc(530px * 9 + 20px * 9);
+    transition: 0.5s;
+    transform: translateX(0px);
+  }
+  
+  .slider {
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel button {
+    background-color: #A7D9D9;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    z-index: 5;
+    border: none;
+    position: absolute;
+    top: 42%;
+    text-align: center;
+  }
+
+  .carousel {
+    position: relative;
+    margin-left: 30px;
+  }
+  
+  .carousel button:first-child {
+    right: 0;
+  }
+  
+  .carousel button + button {
+    left: 0;
+  }
+  
+  .carousel h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: RightOus;
+    line-height: 44.7px;
+    margin: 10px;
+  }
+  
+  .carousel p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Roboto;
+    line-height: 28.13px;
+    margin: 10px;
+  }
+
+  .carousel h2 {
+    font-family: 'MINISTRY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 112px;
+    margin: 20px;
+    margin-bottom: 30px;
+    color: #6C6373;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    text-decoration: underline;
+    text-decoration-color: #A7D9D9;
+    text-decoration-thickness: 3px;
+  }
+
+  @media screen and (max-width: 550px) {
+    .slide {
+      width: 300px;
+      height: 400px;
+    }
+
+    .slide {
+        overflow-y: hidden;
+    }
+
+    .carousel p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .carousel h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .carousel br
+    {
+        display: none;
+    }
+  }  
+
+/** --------------------FOOTER ---------- **/
+
+footer ul li h3 {
+    font-family: RightOus;
+    font-size: 48px;
+}
+
+footer ul li p {
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+
+ footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    padding: 25px;
+    width: 250px;
+}
+
+footer ul li {
+    padding-top: 35px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+footer ul li h3,p{
+    color: #685D63;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 8%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("image/vague_footer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer address {
+    width: 85%;
+    align-self: center;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20%;
+}
+
+footer address p {
+    padding-top: 10%;
+}
+
+footer address hr {
+    background-color: #A7D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 10px;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 620px) {
+    footer ul li + li, footer ul li + li + li {
+        display: none;
+    }
+}
+
+
+/** ------------------Page d'accueil ------------------- **/
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carte h3 {
+    align-self: flex-start;
+    font-family: 'MINISTRY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 112px;
+    margin: 40px;
+    margin-bottom: 30px;
+    color: #6C6373;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    text-decoration: underline;
+    text-decoration-color: #A7D9D9;
+    text-decoration-thickness: 3px;
+}
+
+.carte img {
+    width: auto;
+}
+
+@media screen and (max-width: 700px){
+    .carte h3
+    {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .carte img {
+        width: 360px;
+        height: 455px;
+    }
+}
+
+/** ------------------Page Contacter ------------------- **/
+
+.contact {
+    width: 800px;
+    height: 620px;
+    background-color: #6C6373;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+}
+
+.main_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_contact h3 {
+    align-self: flex-start;
+    font-family: 'MINISTRY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 112px;
+    margin: 40px;
+    margin-bottom: 30px;
+    color: #6C6373;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    text-decoration: underline;
+    text-decoration-color: #A7D9D9;
+    text-decoration-thickness: 3px;
+}
+
+.form__label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+  }
+  
+  .raison {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 650px;
+    height: 5px;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+  
+  .form__input:placeholder-shown + .form__label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+  }
+
+  .description {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 650px;
+    height: 250px;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+.adresse_mail {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 260px;
+    height: 5px;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+.telephone {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    position: relative;
+    width: 260px;
+    height: 5px;
+    left: 390px;
+    bottom: 108px;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 800px) {
+    .contact {
+        width: 430px;
+        height: 620px;
+        background-color: #6C6373;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25); 
+    }
+    .raison {
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-left: 40px;
+        padding: 1.5rem 2rem;
+        border-radius: 0.2rem;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        width: 300px;
+        height: 5px;
+        display: block;
+        border-bottom: 0.3rem solid transparent;
+        transition: all 0.3s;
+    }
+    .description {
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-left: 40px;
+        padding: 1.5rem 2rem;
+        border-radius: 0.2rem;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        width: 300px;
+        height: 250px;
+        display: block;
+        border-bottom: 0.3rem solid transparent;
+        transition: all 0.3s;
+    }
+    .adresse_mail {
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-left: 40px;
+        padding: 1.5rem 2rem;
+        border-radius: 0.2rem;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        width: 100px;
+        height: 5px;
+        display: block;
+        border-bottom: 0.3rem solid transparent;
+        transition: all 0.3s;
+    }
+    .telephone {
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-left: 0px;
+        padding: 1.5rem 2rem;
+        border-radius: 0.2rem;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        position: relative;
+        width: 100px;
+        height: 5px;
+        left: 230px;
+        bottom: 108px;
+        display: block;
+        border-bottom: 0.3rem solid transparent;
+        transition: all 0.3s;
+    }
+}
+
+
+
+
+
+/*******************Main CSS pour page Séjour*******************/
+.Sejour div > nav
+{
+    margin-top: 2em;
+    padding-bottom: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sejour div nav div
+{
+    display: flex;
+    align-items: center;
+}
+
+.Sejour div nav div img
+{
+    margin-top: 40px;
+    margin-right: 2em;
+    width: 30px;
+    height: 30px;
+}
+
+.Sejour ul li:hover > ul
+{
+    display: block;
+    position: absolute;
+}
+
+.Sejour ul li > ul a {
+    border: none;
+}
+
+.Sejour ul ul
+{
+    list-style-type: none;
+    background: #A7D9D9;
+    border-radius: 15px;
+}
+  
+.Sejour ul li 
+{
+    display: inline-block;
+}
+  
+.Sejour ul ul 
+{
+    position: absolute;
+    display: none;
+}
+  
+.Sejour ul ul li 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Sejour ul ul li a img
+{
+    width: 123px;
+    height: 82px;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+.Sejour ul li img + img
+{
+    width: 75.18px;
+    height: 53px;
+    border-radius: 10px;
+}
+
+.Sejour div nav div h3
+{
+    text-align: center;
+    color: #685D63;
+    font-family: Ministry;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Sejour div nav nav
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Section CSS France*/
+.Sejour section div:first-child
+{
+    display: flex;
+    align-items: baseline;
+}
+
+.Sejour section div:first-child h2
+{
+    font-family: MINISTRY;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 112px;
+    margin: 20px;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    color: #6C6373;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    text-decoration: underline;
+    text-decoration-color: #A7D9D9;
+    text-decoration-thickness: 3px;
+}
+@media screen and (max-width: 1226px){
+    .Sejour section div:first-child h2
+    {
+        font-size: 56px;
+        line-height: 56px;
+        margin: 0;
+        margin-left: 20px;
+    }
+}
+
+
+.Sejour section div:first-child img
+{
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+@media screen and (max-width: 1226px){
+    .Sejour section div:first-child img
+    {
+        width: 50px;
+        height: 35px;
+    }
+}
+
+.Sejour section section div:first-child
+{
+    display: block;
+}
+
+.Sejour section section div:first-child h3
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: RightOus;
+    line-height: 44.7px;
+    margin: 10px;
+}
+
+.Sejour section section div:first-child img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+    margin: 0;
+}
+
+
+.Sejour section section div
+{
+    width: 530px;
+    height: 700px;
+    background-color: #6C6373;
+    border-radius: 10px;
+    margin: 2em;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+    
+}
+@media screen and (max-width: 1226px){
+    .Sejour section section div
+    {
+        margin: 1em;
+    }
+
+    .Sejour section section div:first-child h3
+    {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .Sejour section section div:first-child img
+    {
+        height: 141px;
+    }
+}
+
+.Sejour section section div img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+}
+@media screen and (max-width: 1226px){
+    .Sejour section section div img
+    {
+        height: 141px;
+    }
+}
+
+.Sejour section section + div img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+}
+
+.Sejour section section div h3
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: RightOus;
+    line-height: 44.7px;
+    margin: 10px;
+}
+
+.Sejour section section div p
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Roboto;
+    line-height: 28.13px;
+    margin: 10px;
+}
+@media screen and (max-width: 1226px){
+    .Sejour section section div p
+    {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .Sejour section section div br
+    {
+        display: none;
+    }
+    .Sejour section section div h3
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .Sejour section section div img
+    {
+        height: 141px;
+    }
+    .Sejour section section div
+    {
+        width: 160px;
+        height: 281px;
+        border-radius: 20px;
+    }
+}
+
+.Sejour section section
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Fin CSS section France*/
+
+/*CSS des autres sections de pays*/
+.Sejour section + section div + div
+{
+    width: 530px;
+    height: 700px;
+    background-color: #6C6373;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+}
+
+.Sejour section + section div + div img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+}
+
+.Sejour section + section div + div h3
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: RightOus;
+    line-height: 44.7px;
+    margin: 10px;
+}
+
+.Sejour section + section div + div p
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Roboto;
+    line-height: 28.13px;
+    margin: 10px;
+}
+
+.Sejour section + section div:first-child a img
+{
+    width: 100px;
+    height: 98px;
+    position: absolute;
+    right: 0;
+    clear: left;
+}
+@media screen and (max-width: 1226px){
+    .Sejour section + section div + div p
+    {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .Sejour section + section div + div br
+    {
+        display: none;
+    }
+    .Sejour section + section div + div h3
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .Sejour section + section div + div img
+    {
+        height: 141px;
+    }
+    .Sejour section + section div + div
+    {
+        width: 160px;
+        height: 281px;
+        border-radius: 20px;
+    }
+    .Sejour section + section div:first-child a img
+    {
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+}
+/*Fin du CSS des autres section de pays*/
+/*******************Fin Main CSS pour page Séjour*******************/
+
+
+
+/*******************Main CSS pour page Calanque*******************/
+/*Image des calanques*/
+.Calanque section:first-child img:first-child
+{
+    width: 1227px;
+    height: 818px;
+    border-radius: 20px 20px 0px 0px;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+    display: flex;
+    margin: auto;
+}
+
+@media screen and (max-width: 1226px) {
+    .Calanque section:first-child img:first-child
+    {
+        width: 294px;
+        height: 223px;
+    }
+}
+
+/*Titre h1*/
+.Calanque h1
+{
+    font-family: 'MINISTRY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 112px;
+    color: #685D63;
+    margin-left: 0.5em;
+}
+
+@media screen and (max-width: 1226px){
+    .Calanque h1
+    {
+        font-size: 56px;
+        line-height: 56px;
+    }
+}
+
+/*Notes et Tarif*/
+.Calanque section:first-child div
+{
+    display: flex;
+    align-items: baseline;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section:first-child div
+    {
+        margin: auto;
+        margin-top: 1em;
+    }
+}
+
+.Calanque section:first-child div img
+{
+    width: 84px;
+    height: 78.9px;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section:first-child div img
+    {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.Calanque section:first-child div p
+{
+    font-family: 'RightOus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 70px;
+    color: #685D63;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section:first-child div p
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+.Calanque section:first-child div div + div
+{
+    position: absolute;
+    right: 0;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section:first-child div div + div
+    {
+        margin-top: 7em;
+    }
+}
+
+/*Résumé*/
+.Calanque section + section
+{
+    margin-top: 12em;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section div
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.Calanque section:first-child + section div p
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    margin: auto;
+    text-align: center;
+    color: #685D63;
+    margin-top: 2em;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section:first-child + section div p
+    {
+        font-size: 20px;
+        line-height: 23px;
+        align-items: center;
+        padding: 0 1em;
+    }
+    .Calanque section:first-child + section div p br
+    {
+        display: none;
+    }
+}
+
+/*Tableau date et tarifs*/
+.Calanque section + section + section div table
+{
+    margin: auto;
+    background-color: #685D63;
+    border-radius: 15px;
+    width: 936px;
+    height: 1101px;
+    margin-top: 4em;
+    padding: 1em;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section div table
+    {
+        width: 315px;
+        height: 777px;
+    }
+}
+
+.Calanque section + section + section div table th
+{
+    color: #685D63;
+    background-color: #A7D9D9;
+    border-radius: 15px 0px 0px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section div table th
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .Calanque section + section + section
+    {
+        margin-top: 3em;
+    }
+}
+
+/*Les plus du séjour*/
+.Calanque section + section + section + section div ul li
+{
+    font-family: 'RightOus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    color: #685D63;
+    display: list-item;
+    margin-left: 1.2em;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section div ul li
+    {
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 3em;
+    }
+
+    .Calanque section + section + section + section div ul li br
+    {
+        display: none;
+    }
+
+    .Calanque section + section + section + section
+    {
+        margin-top: 10em;
+    }
+}
+
+.Calanque section + section + section + section div ul
+{
+    margin-top: 4em;
+}
+
+/*Tranche d'age*/
+.Calanque section + section + section + section div p
+{
+    font-family: 'RightOus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    color: #685D63;
+    margin-left: 20px;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section div p
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+.Calanque section + section + section + section div + div
+{
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    right: 0;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section div + div
+    {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 5em;
+    }
+}
+
+.Calanque section + section + section + section
+{
+    display: flex;
+}
+
+/*Niveau d'intensité*/
+.Calanque section + section + section + section div:first-child + div + div
+{
+    margin-top: 15em;
+    display: flex;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 1345px) {
+    .Calanque section + section + section + section
+    {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section div:first-child + div + div
+    {
+        margin-top: 5em;
+    }
+}
+
+.Calanque section + section + section + section div + div + div img
+{
+    width: 84px;
+    height: 78.9px;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section div + div + div img
+    {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/*Niveau d'expertise*/
+.Calanque section + section + section + section + section div p
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #685D63;
+    margin-top: 1em;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section + section div p
+    {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .Calanque section + section + section + section + section
+    {
+        margin-top: 3em;
+    }
+}
+
+.Calanque section + section + section + section + section div
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+/*Prestation incluse*/
+.Calanque section + section + section + section + section + section
+{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section + section + section
+    {
+        flex-direction: column;
+    }
+}
+
+.Calanque section + section + section + section + section + section div
+{
+    display: flex;
+    margin: 0;
+    margin-left: 2em;
+}
+
+main section + section + section + section + section + section div ul li
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    display: list-item;
+    align-items: center;
+    color: #685D63;
+}
+
+.Calanque section + section + section + section + section + section div ul li
+{
+    list-style-image: url(image/puce_hotel.png);
+}
+
+.Calanque section + section + section + section + section + section div ul li + li
+{
+    list-style-image: url(image/puce_plonge.png);
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section + section + section div ul li
+    {
+        list-style-image: url(image/puce_hotel2.png);
+    }
+
+    .Calanque section + section + section + section + section + section div ul li + li
+    {
+        list-style-image: url(image/puce_plonge2.png);
+    }
+
+    .Calanque section + section + section + section + section + section div ul
+    {
+        margin-top: 1em;
+        margin-bottom: 3em;
+    }
+}
+
+/*Activités secondaires*/
+.Calanque section + section + section + section + section + section div + div
+{
+    position: relative;
+    margin-right: 3em;
+}
+
+.Calanque section + section + section + section + section + section div + div ul li
+{
+    list-style-image: url(image/puce_randonnée.png);
+}
+
+.Calanque section + section + section + section + section + section div + div ul li + li
+{
+    list-style-image: url(image/puce_baignade.png);
+}
+
+.Calanque section + section + section + section + section + section div + div ul li + li + li
+{
+    list-style-image: url(image/puce_velo.png);
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section + section + section div + div ul li
+    {
+        list-style-image: url(image/puce_randonnée2.png);
+    }
+
+    .Calanque section + section + section + section + section + section div + div ul li + li
+    {
+        list-style-image: url(image/puce_baignade2.png);
+    }
+
+    .Calanque section + section + section + section + section + section div + div ul li + li + li
+    {
+        list-style-image: url(image/puce_velo2.png);
+    }
+}
+
+/*Prestation non incluse*/
+.Calanque section + section + section + section + section + section + section div
+{
+    margin: auto;
+}
+
+.Calanque section + section + section + section + section + section + section div ul li
+{
+    list-style-image: url(image/puce_bus.png);
+}
+
+.Calanque section + section + section + section + section + section + section div ul li + li
+{
+    list-style-image: url(image/puce_bar.png);
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section + section + section + section div ul li
+    {
+        list-style-image: url(image/puce_bus2.png);
+    }
+
+    .Calanque section + section + section + section + section + section + section div ul li + li
+    {
+        list-style-image: url(image/puce_bar2.png);
+    }
+}
+
+/*Programme détaille*/
+.Calanque section + section + section + section + section + section + section + section div
+{
+    margin: 0;
+    display: block;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section + section + section + section + section div h1
+    {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.Calanque section + section + section + section + section + section + section + section div ul li
+{
+    list-style-type: disc;
+    list-style-image: none;
+    font-family: 'RightOus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section + section + section + section + section div ul li
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+/*Equipement inclus*/
+.Calanque section + section + section + section + section + section + section + section + section
+{
+    display: flex;
+}
+
+.Calanque section + section + section + section + section + section + section + section + section div
+{
+    margin-left: 3em;
+    display: flex;
+}
+
+.Calanque section + section + section + section + section + section + section + section + section div ul li
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    list-style-image: url(image/puce_plonge.png);
+}
+
+.Calanque section + section + section + section + section + section + section + section + section div ul li + li
+{
+    list-style-image: url(image/puce_detendeur.png);
+}
+
+.Calanque section + section + section + section + section + section + section + section + section div ul li + li + li
+{
+    list-style-image: url(image/puce_masque.png);
+}
+
+.Calanque section + section + section + section + section + section + section + section + section div ul li + li + li + li
+{
+    list-style-image: url(image/puce_palme.png);
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section + section + section + section + section + section div ul li
+    {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        list-style-image: url(image/puce_plonge2.png);
+    }
+
+    .Calanque section + section + section + section + section + section + section + section + section div ul li + li
+    {
+        list-style-image: url(image/puce_detendeur2.png);
+    }
+
+    .Calanque section + section + section + section + section + section + section + section + section div ul li + li + li
+    {
+        list-style-image: url(image/puce_masque2.png);
+    }
+
+    .Calanque section + section + section + section + section + section + section + section + section div ul li + li + li + li
+    {
+        list-style-image: url(image/puce_palme2.png);
+    }
+}
+
+/*Equipement non-inclus*/
+.Calanque section + section + section + section + section + section + section + section + section div + div
+{
+    display: flex;
+    margin-right: 2em;
+}
+
+.Calanque section + section + section + section + section + section + section + section + section div + div ul li
+{
+    list-style-image: url(image/puce_creme.png);
+}
+
+.Calanque section + section + section + section + section + section + section + section + section div + div ul li + li
+{
+    list-style-image: url(image/puce_tshirt.png);
+}
+
+.Calanque section + section + section + section + section + section + section + section + section div + div ul li + li + li
+{
+    list-style-image: url(image/puce_spray.png);
+}
+@media screen and (max-width: 1226px){
+    .Calanque section + section + section + section + section + section + section + section + section div + div ul li
+    {
+        list-style-image: url(image/puce_creme2.png);
+    }
+
+    .Calanque section + section + section + section + section + section + section + section + section div + div ul li + li
+    {
+        list-style-image: url(image/puce_tshirt2.png);
+    }
+
+    .Calanque section + section + section + section + section + section + section + section + section div + div ul li + li + li
+    {
+        list-style-image: url(image/puce_spray2.png);
+    }
+}
+/*******************Fin Main CSS page Calanque*******************/
+
+
+
+/**************Main page hebergement**************************/
+
+
+
+.slide {
+    width: 530px;
+    height: 700px;
+    background-color: #6C6373;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+    float: left;
+}
+  
+.slide img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+}
+  
+.slides {
+    width: calc(530px * 9 + 20px * 9);
+    transition: 0.5s;
+    transform: translateX(0px);
+}
+  
+.slider {
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.carousel button {
+    background-color: #A7D9D9;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    z-index: 5;
+    border: none;
+    position: absolute;
+    top: 52%;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    margin-left: 30px;
+}
+  
+.carousel button:first-child {
+    right: 0;
+}
+  
+.carousel button + button {
+    left: 0;
+}
+  
+.carousel h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: RightOus;
+    line-height: 44.7px;
+    margin: 10px;
+}
+  
+.carousel p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Roboto;
+    line-height: 28.13px;
+    margin: 10px;
+}
+
+.heberge .carousel h2, #tous > h2 {
+    font-family: 'MINISTRY';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 112px;
+    margin: 20px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    color: #6C6373;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    text-decoration-thickness: 3px;
+}
+  
+#mieux{
+    text-decoration: none;
+}
+
+.carousel hr{
+    background-color: #A7D9D9;
+    border-radius: 10px;
+    border: none;
+    height: 5px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    width: 550px;
+}
+
+
+
+
+/**---------FIN-DU-CAROUSEL-------------**/
+
+
+/**------------MAIN---CSS----------------**/
+
+.heberge > hr
+{
+    background-color: #A7D9D9;
+    border-radius: 10px;
+    border: none;
+    height: 5px;
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+
+/**------------TRIER--PAR---PAYS-------**/
+
+
+
+
+
+.heberge section nav > nav
+{
+    display: flex;
+}
+
+
+
+.heberge section nav div
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.heberge section nav div figure img
+{
+    margin-top: 40px;
+    margin-right: 2em;
+    width: 30px;
+    height: 30px;
+}
+
+
+.heberge section nav:hover > ul ul
+{
+    display: block;
+    position: absolute;
+}
+
+.heberge ul li > ul a {
+    border: none;
+}
+
+
+.heberge section nav ul ul {
+    position: absolute;
+    display: none;
+}
+
+
+.heberge section ul ul
+{
+    list-style-type: none;
+    background: #A7D9D9;
+    border-radius: 15px;
+    margin: 0 865px;
+    z-index: 1;
+}
+
+
+
+.heberge ul li 
+{
+    display: inline-block;
+}
+
+
+.heberge ul ul li 
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.heberge ul ul li a img
+{
+    width: 123px;
+    height: 82px;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+.heberge ul li img + img
+{
+    width: 75.18px;
+    height: 53px;
+    border-radius: 10px;
+}
+
+.heberge section nav div h3
+{
+    text-align: center;
+    color: #685D63;
+    font-family: Ministry;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.heberge section nav nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+  
+
+/**--------FIN----TRIER--PAR---PAYS-------**/
+
+
+
+/*Section CSS France*/
+
+.heberge > section > hr{
+    background-color: #A7D9D9;
+    border-radius: 10px;
+    border: none;
+    height: 5px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+    width: 550px;
+    border-width: 1px;
+}
+
+
+.heberge section div:first-child
+{
+    display: flex;
+}
+
+.heberge section div:first-child h2
+{
+    font-family: MINISTRY;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 112px;
+    margin: 20px;
+    margin-left: 0.3em;
+    color: #6C6373;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.drapeau_fr{
+    width: 130px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+
+.fleche_pays{
+    padding-top: 40px;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 30px;
+    margin-left: 4em;
+}
+
+
+
+.heberge section section div:first-child
+{
+    display: block;
+}
+
+.heberge section section div:first-child h3
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: RightOus;
+    line-height: 44.7px;
+    margin: 10px;
+}
+
+.heberge section section div:first-child img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+    margin: 0;
+}
+
+
+.heberge section section div
+{
+    width: 530px;
+    height: 700px;
+    background-color: #6C6373;
+    border-radius: 10px;
+    margin: 2em;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+}
+
+.heberge section section div img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+}
+
+.heberge section section + div img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+}
+
+.heberge section section div h3
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: RightOus;
+    line-height: 44.7px;
+    margin: 10px;
+}
+
+.heberge section section div p
+{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Roboto;
+    line-height: 28.13px;
+    margin: 10px;
+}
+
+.heberge section section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#trier h2{
+    margin-left: 100px;
+}
+
+/*Fin CSS section France*/
+
+/**-----------TELEPHONE-------------**/
+
+
+.petit_logo2{
+    display: none;
+}
+
+.slider2{
+    display: none;
+}
+
+@media screen and (max-width: 573px) {
+    header > div {
+        display: none;
+    }
+
+    .petit_logo2{
+        display: block;
+        margin: auto;
+    }
+    
+    header hr {
+        visibility: hidden;
+        width: 1%;
+    }
+
+    header > h1 {
+        text-align: center;
+    }
+
+    header > p {
+        text-align: center;
+        margin: auto;
+    }
+
+    header
+    {
+        padding-bottom: 30em;
+    }
+
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 550px;
+    }
+
+    .toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+        color: #6C6373;
+    }
+
+    .ouvrir {
+        display: block;
+    }
+
+
+    .fermer {
+        display: none;
+    }
+    
+    .open .ouvrir {
+        display: none;
+    }
+
+    .open .fermer {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 88.2%;
+        height: 100vh;
+        background: rgba(115, 168, 83, 0.8);
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        transition: transform 1s;
+    }
+
+    .menu li a {
+        font-size: 2rem;
+    }
+
+    .open .menu {
+        transform: translateX(0);
+    }
+    
+    
+    .slide {
+        width: 460px;
+    }
+    
+
+
+}
+
+.petit_logo, .bouton2{
+    display: none;
+}
+#tous{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    header div > a img {
+        display: none;
+    }
+    
+    .petit_logo{
+        display: block;
+        width: 100px;
+        height: 110px;
+        margin: 0;
+    }
+
+    header hr{
+        margin-top: 20px;
+    }
+
+    header section p, header section h1{
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    header div nav ul li div{
+        margin-right: 15px;
+    }
+
+    .heberge .carousel > h2, #trier > h2, #tous > h2{
+        font-size: 66px;
+        margin-left: 40px;
+    }
+    .heberge .carousel hr, .heberge section hr{
+        margin-left: 25px;
+        margin-top: 0;
+        width: 300px;
+    }
+    .carousel{
+        margin-left: 10px;
+    }
+    .slide {
+        width: 300px;
+        height: 400px;
+    }
+    .slides {
+        width: calc(530px * 9 + 20px * 9);
+        transition: 0.5s;
+        transform: translateX(0px);
+    }
+    .slide img {
+        width: 100%;
+        height: 175px;
+    }
+    .carousel h3 {
+        font-size: 24px;
+    }
+      
+    .carousel p {
+        font-size: 12px;
+    }
+    .heberge section section{
+        display: none;
+    }
+    .slider2{
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .bouton2{
+        display: block;
+    }
+
+    .bouton2 button{
+        top: 25%;
+    }
+
+
+    #trier, nav ul ul nav{
+        display: none;
+    }
+    #tous{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:900px){
+    header hr{
+        width: 60%;
+    }
+    header div nav h1{
+        font-size:20px;
+    }
+    .petit_logo{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    header section h1{
+        font-size: 100px;
+    }
+
+    header section p{
+        font-size: 28px;
+    }
+    
+}
+/*fin premier*/
+
+
+/**----------MAIN------------**/
+
+/**------DESCRIPTION-ET-IMAGE----**/
+
+.description2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.description2 h1 {
+    font-family: 'MINISTRY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 112px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    color: #6C6373;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    text-decoration-thickness: 3px;
+}
+  
+.description2 hr{
+    background-color: #A7D9D9;
+    border-radius: 10px;
+    border: none;
+    height: 5px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    width: 550px;
+}
+
+
+.description2 figure img{
+    width: 1000px;
+    height: 600px;
+}
+
+
+.description2 figure{
+    margin-left: 100px;
+}
+
+
+.description2 section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10em;
+    margin-left: 8em;
+    margin-right: 6em;
+
+}
+
+.description2 section h3{
+    margin: auto;
+    font-family: 'RightOus';
+    color: #73A853;
+    font-size: 40px;
+    text-align: center;
+}
+
+.description2 section p{
+    margin-left: auto;
+    font-family: 'RightOus';
+    color: #685D63;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+/**-----FIN-DESCRIPTION-ET-IMAGE----**/
+
+/**-----------LISTE--------------**/
+
+
+.heberge_d h2{
+    font-family: 'RightOus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 112px;
+    margin-bottom: 0;
+    margin-left: 100px;
+    color: #6C6373;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    text-decoration-thickness: 3px;
+}
+
+.heberge_d ul{
+    margin: auto 160px;
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+
+.heberge_d li{
+    margin: 30px;
+}
+
+.heberge_d hr{
+    background-color: #A7D9D9;
+    border-radius: 10px;
+    border: none;
+    height: 5px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    width: 550px;
+}
+
+
+
+.equipement, .type, .restauration{
+    margin:50px;
+}
+.equipement ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bateau{
+    list-style: inside url(image/bateau.png);
+}
+
+.piscine{
+    list-style: inside url(image/piscine.png);
+}
+
+.altere{
+    list-style: inside url(image/altere.png);
+}
+
+.type ul, .restauration ul{
+    list-style-type: none;
+}
+
+
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 150px 0;
+}
+
+.photos img{
+    margin: 50px;
+}
+
+
+.localisation{
+    margin: 70px;
+}
+
+.localisation h2{
+    color: #73A853;
+}
+
+.localisation hr{
+    width: 200px;
+    margin-top: 0;
+}
+
+
+.localisation ul{
+    list-style: none;
+    
+    justify-content: space-around;
+}
+
+.localisation ul li{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap:wrap;
+}
+
+.localisation ul li p{
+    align-items: center;
+    font-size: 30px;
+    margin: 30px 10px;
+}
+
+.selecteur{
+    color: #685D63;
+    font-weight: bolder;
+}
+
+
+/**-------FIN----LISTE-----------**/
+
+
+.carte iframe{
+    border-radius: 10px;
+}
+
+.cartes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pays{
+    margin: 100px;
+}
+.cartes img{
+    margin-bottom: 50px
+}
+
+.image_h{
+    right: 100px;
+}
+
+.carte{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/**--------------FIN-MAIN-------------**/
+
+/** ---------------FOOTER ---------- **/
+
+footer ul li h3 {
+    font-family: RightOus;
+    font-size: 48px;
+}
+
+footer ul li p {
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+
+ footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    padding: 25px;
+    width: 250px;
+    margin: 3em;
+}
+
+footer ul li {
+    padding-top: 35px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+footer ul li h3,p{
+    color: #685D63;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8%;
+    justify-content: space-around;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("image/vague_footer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer address {
+    width: 85%;
+    align-self: center;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10%;
+}
+
+footer address p {
+    padding-top: 10%;
+}
+
+footer address hr {
+    background-color: #A7D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 10px;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+/**-----------TELEPHONE-------------**/
+.petit_logo{
+    display: none;
+}
+
+.petit_logo2{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    header div > a img {
+        display: none;
+    }
+    
+    .petit_logo{
+        display: block;
+        width: 100px;
+        height: 110px;
+        margin: 0;
+    }
+
+    header hr{
+        margin-top: 20px;
+    }
+    
+    header div nav ul li div{
+        margin-right: 15px;
+    }
+    .description2 figure h1{
+        font-size: 66px;
+        margin: 0;
+    }
+    .description2 hr{
+        width: 275px;
+    }
+    .description2 figure img{
+        width: 700px;
+        height: 400px;
+    }
+
+    .pays{
+        width: 300px;
+        height: 300px;
+        margin-top: 0;
+    }
+    .image_h{
+        width: 300px;
+        height: 300px;
+        margin-top: 100px;
+    }
+    .carte{
+        height: 300px;
+        margin-bottom: 350px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:1540px) {
+    .description2{
+        flex-wrap: wrap;
+    }
+
+    .description2 section h3{
+        margin-bottom: 30px;
+    }
+
+    .description2 h1{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .description2 hr{
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .description2 figure{
+        margin-left: 0;
+    }
+    
+    
+    .description2 section h3{
+        text-align: left;
+        margin-left: 0;
+    }
+    .description2 section p{
+        text-align: left;
+        margin-left: 50px;
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width:900px){
+    header hr{
+        width: 60%;
+    }
+    header div nav h1{
+        font-size:20px;
+    }
+    .petit_logo{
+        display: none;
+    }
+    .description2 figure img{
+        width: 425px;
+        height: 225px;
+    }
+
+    .description2 section{
+        margin-left: 50px;
+    }
+
+    .description2 section h3{
+        font-size: 25px;
+    }
+    .description2 section p{
+        font-size: 16px;
+    }
+
+
+    .equipement, .type, .restauration{
+        margin-left: 0px;
+    }
+
+    .equipement h2, .type h2, .restauration h2, .localisation h2{
+        margin-left: 80px;
+        font-size: 24px;
+    }
+    .equipement hr{
+        width: 350px;
+        margin-top: 0;
+    }
+    .type hr{
+        width: 200px;
+        margin-top: 0;
+    }
+    .restauration hr, .localisation hr{
+        width: 150px;
+        margin-top: 0;
+    }
+    .description2 section{
+        margin-left: 80px;
+    }
+
+    .equipement ul, .type ul, .restauration ul{
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .localisation{
+        margin-left: 0;
+    }
+
+    .localisation ul{
+        margin-left: 40px;
+        margin-right: 0;
+        
+    }
+
+    
+
+}
+
+@media screen and (max-width: 573px) {
+    header > div {
+        display: none;
+    }
+
+    .petit_logo2{
+        display: block;
+        margin: auto;
+    }
+    
+    header hr {
+        visibility: hidden;
+        width: 1%;
+    }
+
+    header
+    {
+        padding-bottom: 30em;
+    }
+
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 550px;
+    }
+
+    .toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+        color: #6C6373;
+    }
+
+    .ouvrir {
+        display: block;
+    }
+
+
+    .fermer {
+        display: none;
+    }
+    
+    .open .ouvrir {
+        display: none;
+    }
+
+    .open .fermer {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 88.2%;
+        height: 100vh;
+        background: rgba(115, 168, 83, 0.8);
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        transition: transform 1s;
+    }
+
+    .menu li a {
+        font-size: 2rem;
+    }
+
+    .open .menu {
+        transform: translateX(0);
+    }
+
+    .description2 section{
+        margin-right: 0;
+    }
+
+    .description2 section h3{
+        margin-top: 0;
+        margin-right: 0.5em;
+    }
+
+    .description2 section p{
+        margin-right: 4em;
+    }
+
+    .equipement ul, .type ul, .restauration ul{
+        margin-left: 50px;
+    }
+    .bateau{
+        list-style: inside url(image/bateau2.png);
+    }
+    
+    .piscine{
+        list-style: inside url(image/piscine2.png);
+    }
+    
+    .altere{
+        list-style: inside url(image/altere2.png);
+    }
+    .photos{
+        margin: 20px;
+    }
+    .photos img{
+        width: 425px;
+        height: 250px;
+    }
+
+    .localisation ul li p{
+        font-size: 18px;
+    }
+
+    .pays, .image_h{
+        margin: auto 0;
+        width: 150px;
+        height: 150px;
+    }
+    .carte iframe{
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    footer ul li + li, footer ul li + li + li {
+        display: none;
+    }
+}
+/**-----------FIN---TELEPHONE-------------**/
+
+/**************Fin Main page hebergement**************************/
